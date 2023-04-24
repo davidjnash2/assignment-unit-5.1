@@ -8,13 +8,13 @@ console.log('***** Object Practice *****')
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
-const me = {
+let me = {
   // TODO - add properties here
   firstName: 'Dave',
   lastName: 'Nash',
   hasSiblings: true,
   shoeCount: 14,
-  favThreeFoods: ['oysters', 'uni', 'bone marrow' ]
+  favThreeFoods: ['oysters', 'uni', 'bone marrow']
 };
 console.log('A little about me:', me);
 
@@ -33,7 +33,7 @@ console.log(fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
+console.log('first favorite food is:', me.favThreeFoods[0], '& last favorite food is:', me.favThreeFoods[me.favThreeFoods.length-1]);
 
 
 /* 4. Change a property of an existing object.
